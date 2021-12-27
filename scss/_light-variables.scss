@@ -1,0 +1,82 @@
+// Bootstrap Overrides
+// Colors
+$blue: #2e3880;
+$blue-light: #6d70ff;
+$text-blue: #505fc7;
+$hot-pink: #ff78cb;
+$pink-light: #f96ec6;
+$pink-dark: #d532a6;
+$blue-gray: #9aa3e1;
+$dark-blue: #141d5b;
+$neon-pink: #c75be6;
+$neon-green: #38eeb9;
+$neon-blue: #39baff;
+$highlight-shade: #f8f9fd;
+$primary: $hot-pink;
+$secondary: $blue;
+$theme-colors: ( "primary": $primary, "secondary": $secondary, "info":$pink-light);
+$enable-gradients: true;
+//global
+$body-bg: $white;
+$body-color: $blue-gray;
+// Spacer
+$spacer: 1.5rem;
+// Navbar
+$navbar-padding-y: $spacer;
+$navbar-padding-x: $spacer;
+$navbar-nav-link-padding-x: 1.5rem;
+// fonts
+$font-family-sans-serif: "Roboto",
+-apple-system,
+BlinkMacSystemFont,
+Roboto,
+"Segoe UI",
+"Helvetica Neue",
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+$font-family-base: $font-family-sans-serif;
+// Nav
+$nav-link-padding-y: .5rem;
+$nav-link-padding-x: 2rem;
+//
+// Template Variables
+//
+// Theme
+$primary-bg: $blue;
+// typography
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2.5;
+$h3-font-size: $font-size-base * 2;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base;
+$h6-font-size: $font-size-base - 0.1;
+$headings-font-weight: 300;
+$headings-color: $text-blue;
+$text-muted: lighten($blue-gray, 10%);
+$headings-line-height: 1.5;
+//paragraph
+$lead-font-size: ($font-size-base * 1.125);
+// dropdown 
+$dropdown-link-color: desaturate(darken($blue-gray, 10%), 10%);
+$dropdown-link-hover-color: $blue-gray;
+$dropdown-link-hover-bg: $dropdown-bg;
+// Nav
+$navbar-light-color: $text-blue;
+$navbar-light-hover-color: $blue;
+$navbar-light-active-color: $hot-pink;
+// button
+//$btn-border-width: 0;
+$btn-padding-y: 0.55rem;
+$btn-padding-x: 1.8rem;
+$input-btn-border-width: 2px;
+$btn-border-width: $input-btn-border-width;
+//
+$btn-padding-y-lg: 1.2rem;
+$btn-padding-x-lg: 3.5rem;
+// Progress bars
+$progress-height: 2.5rem;
+$progress-bg: $blue;
