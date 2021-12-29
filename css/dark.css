@@ -10425,32 +10425,33 @@ a:hover {
 
 .social__links li {
   display: inline-block;
-  margin-right: 1rem;
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
+}
+
+.social__links li:not(:last-child) {
+  margin-right: 2rem;
 }
 
 .social__links li a {
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(135deg, var(--main-blue), var(--main-cyan));
-  padding: 0.8rem;
   border-radius: 50%;
-  display: block;
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
 }
 
 .social__links li a img {
+  display: inline-block;
   opacity: 0.6;
+  margin: 0 auto;
 }
 
 .social__links li a:hover img {
   opacity: 1;
-}
-
-.light .social__links li a {
-  background: white;
-}
-
-.light .social__links li a img {
-  opacity: 0.2;
 }
 
 .contact__address,
