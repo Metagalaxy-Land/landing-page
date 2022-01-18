@@ -4,3 +4,9 @@
  * once added, do not forget to add the <link< tag in the html <head> as well.
  * <link rel="stylesheet" href="css/custom.css">
  */
+
+@media only screen and (min-width: 600px) {
+  .partnership-item {
+    width: 100px;
+  }
+}

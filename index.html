@@ -1,102 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest" crossorigin>
-        <title>METAGALAXY - Limitless Space Adventure</title>
-        <!-- OpenGraph SEO meta tags -->
-        <meta content="METAGALAXY is a limitless space adventure" name="description">
-        <meta content="METAGALAXY, metaverse, game, gaming, elon, galaxy, space, meta, verse, hype, adventure, sci-fi, clean, minimal, light, dark, crypto, currency, ico, bitcoin, cryptocurrency" name="keywords">
-        <meta property="og:locale" content="en_US">
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="METAGALAXY - Limitless Space Adventure">
-		<meta property="og:url" content="https:///metagalaxyland.com">
-		<meta property="og:site_name" content="METAGALAXY">
-        <meta property="og:image" content="https://metagalaxyland.com/images/logo.png" />
-        <!-- Google Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,900" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-        <!-- Plugins -->
-        <link rel="stylesheet" href="css/flipclock.css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        <!-- Template CSS -->
-        <link rel="stylesheet" href="css/dark.css">
-        <link rel="stylesheet" href="css/parallax.css">
-    </head>
-    <body class="dark">
-        <nav class="navbar navbar-expand-lg navbar-dark z-1">
-            <a class="navbar-brand" href="#">   
-                <img src="images/logo.png" alt="metagalaxy" height="42" style="margin-bottom: 6px;">
-                <span class="nav-logo-title">METAGALAXY</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="audit/v1.pdf">Audit</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="litepaper/v2.pdf">Litepaper</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:navigateToAirdrop();">Airdrop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://bscscan.com/token/0x7CD8c22D3F4b66230F73D7FfCB48576233c3fe33" target="_blank">Contract</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tokenomics">Tokenomics</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#spacemap">Spacemap</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="site-header  d-flex flex-column align-items-center justify-content-between">
-            <div class="site-header-background">
-                <video id="site-header-video" autoplay loop muted playsinline>
-                    <source src="videos/main-bg.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="site-header-overlay"></div>
-            <div class="hero z-1 anim-fade js-scrollanim">
-                <!-- <div class="mb-4">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest" crossorigin>
+  <title>METAGALAXY - Limitless Space Adventure</title>
+  <!-- OpenGraph SEO meta tags -->
+  <meta content="METAGALAXY is a limitless space adventure" name="description">
+  <meta
+    content="METAGALAXY, metaverse, game, gaming, elon, galaxy, space, meta, verse, hype, adventure, sci-fi, clean, minimal, light, dark, crypto, currency, ico, bitcoin, cryptocurrency"
+    name="keywords">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="METAGALAXY - Limitless Space Adventure">
+  <meta property="og:url" content="https:///metagalaxyland.com">
+  <meta property="og:site_name" content="METAGALAXY">
+  <meta property="og:image" content="https://metagalaxyland.com/images/logo.png" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <!-- Plugins -->
+  <link rel="stylesheet" href="css/flipclock.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="css/dark.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/parallax.css">
+</head>
+
+<body class="dark">
+  <nav class="navbar navbar-expand-lg navbar-dark z-1">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="metagalaxy" height="42" style="margin-bottom: 6px;">
+      <span class="nav-logo-title">METAGALAXY</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="audit/v1.pdf">Audit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="litepaper/v2.pdf">Litepaper</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:navigateToAirdrop();">Airdrop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://bscscan.com/token/0x7CD8c22D3F4b66230F73D7FfCB48576233c3fe33"
+            target="_blank">Contract</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tokenomics">Tokenomics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#spacemap">Spacemap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="site-header  d-flex flex-column align-items-center justify-content-between">
+    <div class="site-header-background">
+      <video id="site-header-video" autoplay loop muted playsinline>
+        <source src="videos/main-bg.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="site-header-overlay"></div>
+    <div class="hero z-1 anim-fade js-scrollanim">
+      <!-- <div class="mb-4">
                     <img class="logo-img" src="images/logo.png" alt="metagalaxy">
                 </div> -->
-                <div class="header-info-spacer"></div>
-                <h1>
-                    <span class="logo-title">
-                        METAGALAXY
-                    </span>
-                </h1>
-                <p class="lead mx-auto slogan">
-                    Decentralized, Play2Earn, Metaverse <br><span>SPACE ADVENTURE</span>
-                </p>
-                <a href="#" class="btn btn-primary mt-1" id="play-game">
-                    PLAY GAME
-                </a>
-                <br>
-                <a href="https://pancakeswap.finance/swap?outputCurrency=0x7cd8c22d3f4b66230f73d7ffcb48576233c3fe33" class="btn btn-primary mt-4" target="_blank" rel="noreferrer">
-                    BUY ON PANCAKESWAP
-                </a>
-            </div>
-            <!-- <div class="graph">
+      <div class="header-info-spacer"></div>
+      <h1>
+        <span class="logo-title">
+          METAGALAXY
+        </span>
+      </h1>
+      <p class="lead mx-auto slogan">
+        Decentralized, Play2Earn, Metaverse <br><span>SPACE ADVENTURE</span>
+      </p>
+      <a href="#" class="btn btn-primary mt-1" id="play-game">
+        PLAY GAME
+      </a>
+      <br>
+      <a href="https://www.bitrue.com/trade/megaland_usdt" class="btn btn-primary mt-4" target="_blank"
+        rel="noreferrer">
+        BUY ON BITRUE
+      </a>
+      <br>
+      <a href="https://pancakeswap.finance/swap?outputCurrency=0x7cd8c22d3f4b66230f73d7ffcb48576233c3fe33"
+        class="btn btn-primary mt-4" target="_blank" rel="noreferrer">
+        BUY ON PANCAKESWAP
+      </a>
+    </div>
+    <!-- <div class="graph">
                 <img src="images/graph-dark.svg" alt="graph" class="img-fluid">
             </div>
 
@@ -109,568 +121,591 @@
                     for cross-border payments.</h4>
                 <a href="#" class="btn btn-outline-secondary">Join Presale</a>
             </div> -->
+  </div>
+  <section class="section feature-highlight">
+    <div class="parallax-container">
+      <div data-pointer-events='true' id='scene'>
+        <div class='layer' data-depth='0.50' id='stars-small'>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
         </div>
-        <section class="section feature-highlight">
-            <div class="parallax-container">
-                <div data-pointer-events='true' id='scene'>
-                    <div class='layer' data-depth='0.50' id='stars-small'>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                    </div>
-                    <div class='layer' data-depth='0.60' id='stars-medium'>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                    </div>
-                    <div class='layer' data-depth='0.70' id='stars-big'>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                        <div class='star'></div>
-                    </div>
-                </div>
+        <div class='layer' data-depth='0.60' id='stars-medium'>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+        </div>
+        <div class='layer' data-depth='0.70' id='stars-big'>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+          <div class='star'></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/WbNiQBmlFfc" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <div class="section-title max-title">
+        <h3>GET READY FOR ADVENTURE</h3>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="feature-item anim-fade js-scrollanim">
+            <!-- <img src="images/feature-one.svg" alt="icon" class="featured-item-icon"> -->
+            <h1> 🪐 </h1>
+            <h4 class="featured-item-title">
+              Explore
+            </h4>
+            <p>
+              Create your own planet.
+              <br>
+              Play with your digital reflection as a
+              <br>
+              Space Cowboy.
+              <br>
+              Mint your exploration beyond the boundaries.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="feature-item anim-fade js-scrollanim">
+            <!-- <img src="images/feature-two.svg" alt="icon" class="featured-item-icon"> -->
+            <h1> 🕹️ </h1>
+            <h4 class="featured-item-title">
+              Play
+            </h4>
+            <p>
+              Joy of playing is priceless.
+              <br>
+              Level up by constructing and harvesting.
+              <br>
+              Harvest and gather bounties in METAGALACTIC Universe.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="feature-item anim-fade js-scrollanim">
+            <!-- <img src="images/feature-three.svg" alt="icon" class="featured-item-icon"> -->
+            <h1> 💰 </h1>
+            <h4 class="featured-item-title">
+              Earn
+            </h4>
+            <p>
+              Exchange $MEGALAND on DEX.
+              <br>
+              Sell your loot on NFT Marketplace.
+              <br>
+              Metagalactic NFT Marketplace
+              <br>
+              (M-NFT-M)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section-highlight anim-fade js-scrollanim" id="tokenomics">
+    <div class="container">
+      <div class="section-title max-title">
+        <h3><span class="normal-font">$</span>MEGALAND Token Sale</h3>
+      </div>
+      <div class="text-center">
+        <div class="countdown-clock" data-datetime="November 26, 2021 19:30:00 UTC"></div>
+      </div>
+      <div class="text-center mt-5">
+        <div class="section-title">
+          <h1>SOLD OUT!</h1>
+        </div>
+        <h4><i>" fasten your seat belts, we're about to take off! "</i></h4>
+      </div>
+      <div class="progress-area">
+        <div class="row">
+          <div class="col-3 text-right">
+            <span>🌎</span>
+          </div>
+          <div class="col-6">
+            <div class="progress">
+              <div class="progress-bar bg-gradient" role="progressbar" style="width: 100%" aria-valuenow="100"
+                aria-valuemin="0" aria-valuemax="100">
+                <span style="font-size: 2.5em; text-align: right; margin-right: 8px;"> 🚀 </span>
+              </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WbNiQBmlFfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-                <div class="section-title max-title">
-                    <h3>GET READY FOR ADVENTURE</h3>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="feature-item anim-fade js-scrollanim">
-                            <!-- <img src="images/feature-one.svg" alt="icon" class="featured-item-icon"> -->
-                            <h1> 🪐 </h1>
-                            <h4 class="featured-item-title">
-                                Explore
-                            </h4>
-                            <p>
-                                Create your own planet.
-                                <br>
-                                Play with your digital reflection as a
-                                <br>
-                                Space Cowboy.
-                                <br>
-                                Mint your exploration beyond the boundaries.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="feature-item anim-fade js-scrollanim">
-                            <!-- <img src="images/feature-two.svg" alt="icon" class="featured-item-icon"> -->
-                            <h1> 🕹️ </h1>
-                            <h4 class="featured-item-title">
-                                Play
-                            </h4>
-                            <p>
-                                Joy of playing is priceless.
-                                <br>
-                                Level up by constructing and harvesting.
-                                <br>
-                                Harvest and gather bounties in METAGALACTIC Universe.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="feature-item anim-fade js-scrollanim">
-                            <!-- <img src="images/feature-three.svg" alt="icon" class="featured-item-icon"> -->
-                            <h1> 💰 </h1>
-                            <h4 class="featured-item-title">
-                                Earn
-                            </h4>
-                            <p>
-                                Exchange $MEGALAND on DEX.
-                                <br>
-                                Sell your loot on NFT Marketplace.
-                                <br>
-                                Metagalactic NFT Marketplace
-                                <br>
-                                (M-NFT-M)
-                            </p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-3 text-left">
+            <span>🌕</span>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col">
+
+        </div>
+        <div class="col">
+          <h6 class="text-info">
+            TOTAL SUPPLY
+          </h6>
+          <h3 class="display-6 mb-5">
+            1,380,000,000,000,000
+          </h3>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <div class="section-title max-title">
+          <h3>Galaxy Volume</h3>
+        </div>
+        <p class="lead p-3 centered-text text-center mx-auto">
+          Megaland Token Pool Tokenomics is Fixed by the Economic Facts
+          of in-game transactions and estimation of token demand in
+          Main Sale which will be concluded on Nov ‘21
+        </p>
+        <div class="align-items-center">
+          <div class="flex-fill">
+            <canvas id="distChart" class="donut-chart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="spacemap">
+    <div class="container">
+      <div class="section-title max-title">
+        <h3>Spacemap</h3>
+      </div>
+      <p class="lead p-3 centered-text text-center mx-auto">
+        The spacemap focuses on the development of the
+        technology, operations infrastructure, new partnerships, and marketing
+        initiatives.
+      </p>
+      <section class="cd-timeline js-cd-timeline">
+        <div class="cd-timeline__container">
+          <div class="cd-timeline__block js-cd-block">
+            <div class="cd-timeline__milestone"> </div>
+            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
+              <div class="cd-timeline__date">PHASE 1</div>
+              <span>✔️ Token Launch, Development</span>
+              <br>
+              <span>✔️ BSC Launch</span>
+              <br>
+              <span>✔️ Design, Graphics</span>
+              <br>
+              <span>✔️ KYC Certificate</span>
+              <br>
+              <span>✔️ Presale</span>
+              <br>
+              <span>✔️ DEX Listing</span>
+              <br>
+              <span>✔️ 2000 Holders</span>
+              <br>
+              <span>✔️ CoinGecko Listing</span>
+              <br>
+              <span>✔️ CoinMarketCap Listing</span>
+              <br>
+              <span>✔️ Audit</span>
+              <br>
+              <span>✔️ 10000 Holders</span>
             </div>
-        </section>
-        <section class="section section-highlight anim-fade js-scrollanim" id="tokenomics">
-            <div class="container">
-                <div class="section-title max-title">
-                    <h3><span class="normal-font">$</span>MEGALAND Token Sale</h3>
-                </div>
-                <div class="text-center">
-                    <div class="countdown-clock" data-datetime="November 26, 2021 19:30:00 UTC"></div>
-                </div>
-                <div class="text-center mt-5">
-                    <div class="section-title">
-                        <h1>SOLD OUT!</h1>
-                    </div>
-                    <h4><i>" fasten your seat belts, we're about to take off! "</i></h4>
-                </div>
-                <div class="progress-area">
-                    <div class="row">
-                        <div class="col-3 text-right">
-                            <span>🌎</span>
-                        </div>
-                        <div class="col-6">
-                            <div class="progress">
-                                <div class="progress-bar bg-gradient" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                    <span style="font-size: 2.5em; text-align: right; margin-right: 8px;"> 🚀 </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3 text-left">
-                            <span>🌕</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col">
-                        
-                    </div>
-                    <div class="col">
-                        <h6 class="text-info">
-                            TOTAL SUPPLY
-                        </h6>
-                        <h3 class="display-6 mb-5">
-                            1,380,000,000,000,000
-                        </h3>
-                    </div>
-                    <div class="col">
-                        
-                    </div>
-                </div>
-                <div class="text-center mt-5">
-                    <div class="section-title max-title">
-                        <h3>Galaxy Volume</h3>
-                    </div>
-                    <p class="lead p-3 centered-text text-center mx-auto">
-                        Megaland Token Pool Tokenomics is Fixed by the Economic Facts 
-                        of in-game transactions and estimation of token demand in 
-                        Main Sale which will be concluded on Nov ‘21
-                    </p>
-                    <div class="align-items-center">
-                        <div class="flex-fill">
-                            <canvas id="distChart" class="donut-chart"></canvas>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="cd-timeline__block js-cd-block">
+            <div class="cd-timeline__milestone"> </div>
+            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
+              <div class="cd-timeline__date">PHASE 2</div>
+              <br>
+              <span>✔️ Airdrop</span>
+              <br>
+              <span>🟡 Big Marketing Campaigns</span>
+              <br>
+              <span>🟡 BSCScan Info Updated</span>
+              <br>
+              <span>➖ More Marketing Campaigns</span>
+              <br>
+              <span>➖ Influencer</span>
+              <br>
+              <span>➖ Various Adds</span>
+              <br>
+              <span>➖ METAGALAXY LAND Browser Game</span>
+              <br>
+              <span>➖ Social Media Presence</span>
+              <br>
+              <span>✔️ 20000 Holders</span>
             </div>
-        </section>
-        <section class="section" id="spacemap">
-            <div class="container">
-                <div class="section-title max-title">
-                    <h3>Spacemap</h3>
-                </div>
-                <p class="lead p-3 centered-text text-center mx-auto">
-                    The spacemap focuses on the development of the
-                    technology, operations infrastructure, new partnerships, and marketing
-                    initiatives.
-                </p>
-                <section class="cd-timeline js-cd-timeline">
-                    <div class="cd-timeline__container">
-                        <div class="cd-timeline__block js-cd-block">
-                            <div class="cd-timeline__milestone"> </div>
-                            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
-                                <div class="cd-timeline__date">PHASE 1</div>
-                                <span>✔️ Token Launch, Development</span>
-                                <br>
-                                <span>✔️ BSC Launch</span>
-                                <br>
-                                <span>✔️ Design, Graphics</span>
-                                <br>
-                                <span>✔️ KYC Certificate</span>
-                                <br>
-                                <span>✔️ Presale</span>
-                                <br>
-                                <span>✔️ DEX Listing</span>
-                                <br>
-                                <span>✔️ 2000 Holders</span>
-                                <br>
-                                <span>✔️ CoinGecko Listing</span>
-                                <br>
-                                <span>✔️ CoinMarketCap Listing</span>
-                                <br>
-                                <span>✔️ Audit</span>
-                                <br>
-                                <span>✔️ 10000 Holders</span>
-                            </div>
-                        </div>
-                        <div class="cd-timeline__block js-cd-block">
-                            <div class="cd-timeline__milestone"> </div>
-                            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
-                                <div class="cd-timeline__date">PHASE 2</div>
-                                <br>
-                                <span>🟡 Airdrop</span>
-                                <br>
-                                <span>🟡 Big Marketing Campaigns</span>
-                                <br>
-                                <span>🟡 BSCScan Info Updated</span>
-                                <br>
-                                <span>➖ More Marketing Campaigns</span>
-                                <br>
-                                <span>➖ Influencer</span>
-                                <br>
-                                <span>➖ Various Adds</span>
-                                <br>
-                                <span>➖ METAGALAXY LAND Browser Game</span>
-                                <br>
-                                <span>➖ Social Media Presence</span>
-                                <br>
-                                <span>➖ 20000 Holders</span>
-                            </div>
-                        </div>
-                        <div class="cd-timeline__block js-cd-block">
-                            <div class="cd-timeline__milestone"> </div>
-                            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
-                                <div class="cd-timeline__date">PHASE 3</div>
-                                <span>➖ Cool Merchandise</span>
-                                <br>
-                                <span>➖ Solid Partnerships</span>
-                                <br>
-                                <span>➖ CEX Listing</span>
-                                <br>
-                                <span>➖ METAGALAXY LAND Mini Game</span>
-                                <br>
-                                <span>➖ 30000 Holders</span>
-                            </div>
-                        </div>
-                        <div class="cd-timeline__block js-cd-block">
-                            <div class="cd-timeline__milestone"> </div>
-                            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
-                                <div class="cd-timeline__date">PHASE 4</div>
-                                <span>➖ Big Marketing Plans</span>
-                                <br>
-                                <span>➖ Major Partnerships</span>
-                                <br>
-                                <span>➖ Real World Events</span>
-                                <br>
-                                <span>➖ 40000 Holders</span>
-                            </div>
-                        </div>
-                        <div class="cd-timeline__block js-cd-block">
-                            <div class="cd-timeline__milestone"> </div>
-                            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
-                                <div class="cd-timeline__date">PHASE 5</div>
-                                <span>➖ METAGALAXY LAND Game</span>
-                                <br>
-                                <span>➖ METAGALACTIC Swap</span>
-                                <br>
-                                <span>➖ METAGALACTIC NFT Marketplace</span>
-                                <br>
-                                <span>➖ 50000 Holders</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+          </div>
+          <div class="cd-timeline__block js-cd-block">
+            <div class="cd-timeline__milestone"> </div>
+            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
+              <div class="cd-timeline__date">PHASE 3</div>
+              <span>➖ Cool Merchandise</span>
+              <br>
+              <span>➖ Solid Partnerships</span>
+              <br>
+              <span>✔️ CEX Listing</span>
+              <br>
+              <span>➖ METAGALAXY LAND Mini Game</span>
+              <br>
+              <span>✔️ 30000 Holders</span>
             </div>
-            <!-- // container -->
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="section-title max-title">
-                    <h3>Team</h3>
-                </div>
-                <div class="d-flex flex-wrap align-items-center justify-content-around text-center mt-5">
-                </div>
+          </div>
+          <div class="cd-timeline__block js-cd-block">
+            <div class="cd-timeline__milestone"> </div>
+            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
+              <div class="cd-timeline__date">PHASE 4</div>
+              <span>➖ Big Marketing Plans</span>
+              <br>
+              <span>➖ Major Partnerships</span>
+              <br>
+              <span>➖ Real World Events</span>
+              <br>
+              <span>✔️ 80000 Holders</span>
             </div>
-            <img id="team" src="images/team.jpg" alt="team" style="display: block; margin: 0 auto; width: 70vw; border-radius: 8px; border: 1px solid #FFFFFF66;">
-        </section>
-        <section class="section">
-            <div class="container">
-                <div class="section-title max-title">
-                    <h3>Partnerships</h3>
-                </div>
-                <div class="d-flex flex-wrap align-items-center justify-content-around text-center mt-5 client-logos">
-                    <div class="flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
-                        <img src="images/bsc.webp" alt="logo" class="img-fluid">
-                        <span>Binance Smart Chain</span>
-                    </div>
-                    <div class="flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
-                        <img src="images/pancake.png" alt="logo" class="img-fluid">
-                        <span>PancakeSwap</span>
-                    </div>
-                    <div class="flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
-                        <img src="images/metamask.png" alt="logo" class="img-fluid">
-                        <span>Metamask</span>
-                    </div>
-                    <div class="flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
-                        <img src="images/twt.png" alt="logo" class="img-fluid">
-                        <span>TrustWallet</span>
-                    </div>
-                </div>
-                <div class="d-flex flex-wrap align-items-center justify-content-around text-center mt-5 client-logos">
-                    <div class="flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
-                        <img src="images/cmc.png" alt="logo" class="img-fluid">
-                        <span>CoinMarketCap</span>
-                    </div>
-                    <div class="flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
-                        <img src="images/cg.png" alt="logo" class="img-fluid">
-                        <span>CoinGecko</span>
-                    </div>
-                    <div class="flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
-                        <img src="images/unicrypt.png" alt="logo" class="img-fluid">
-                        <span>Unicrypt</span>
-                    </div>
-                </div>
+          </div>
+          <div class="cd-timeline__block js-cd-block">
+            <div class="cd-timeline__milestone"> </div>
+            <div class="cd-timeline__content js-cd-content anim-fade js-scrollanim">
+              <div class="cd-timeline__date">PHASE 5</div>
+              <span>➖ METAGALAXY LAND Game</span>
+              <br>
+              <span>➖ METAGALACTIC Swap</span>
+              <br>
+              <span>➖ METAGALACTIC NFT Marketplace</span>
+              <br>
+              <span>➖ 100000 Holders</span>
             </div>
-        </section>
-        <!-- // section -->
-        <section class="section" id="faq">
-            <div class="container">
-                <div class="section-title max-title text-center">
-                    <h3>FAQ</h3>
-                </div>
-                <p class="lead p-3 centered-text text-center mx-auto">
-                    Got questions about METAGALAXY? We have got answers. Check it out!
-                </p>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="faq__item anim-fade js-scrollanim">
-                            <h4>What is Reality?</h4>
-                            <p>
-                                Reality no longer has the time to take on the appearance of reality; We live in a world where Reality has now been driven from Reality.
-                                Keep Calm and hold the Metaverse Experience in a different aspect.
-                                A Brand new Galaxy through out to final space. Beyond reality, a new mind software.
-                            </p>
-                        </div>
-                        <div class="faq__item anim-fade js-scrollanim">
-                            <h4>How the METAGALAXY gameplay will look like?</h4>
-                            <p>
-                                You can enjoy by life-like Virtual Galaxy experience.
-                                Buy and Earn Planets with different aspects and practise the Planet as you desire: Build your own society and your own eco-system entirely.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="faq__item anim-fade js-scrollanim">
-                            <h4>When will be METAGALAXY CEX Listing?</h4>
-                            <p>
-                                To be announced on our official channels. Follow us on Twitter and Telegram.
-                            </p>
-                        </div>
-                        <div class="faq__item anim-fade js-scrollanim">
-                            <h4>What are the benefits of $MEGALAND Token?</h4>
-                            <p>
-                                We define $MEGALAND token as resource of our metagalactic universe.
-                                So, this token will be used for in-game transactions such as constructing, leveling up and PvP. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="section py-lg">
-            <div class="container">
-                <ul class="text-center mt-5 social__links">
-                    <li>
-                        <a href="https://twitter.com/metagalaxyland" target="_blank">
-                            <img width="36px" src="images/twitter-icon.svg" alt="tw" class="img-fluid">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/metagalaxyland" target="_blank">
-                            <img width="36px" src="images/telegram-icon.svg" alt="tg" class="img-fluid" style="padding-right: 4px;">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://medium.com/@metagalaxyland" target="_blank">
-                            <img width="64px" src="images/medium-icon.png" alt="tg" class="img-fluid">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/MetaGalaxy-Land" target="_blank">
-                            <img width="36px" height="36px" src="images/github-icon.png" alt="tg">
-                        </a>
-                    </li>
-                </ul>
-                <div class="text-center mt-5">
-                    <p class="copyright__text mb-0">
-                        <small>
-                            copyright ©
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;METAGALAXY
-                        </small>
-                    </p>
-                </div>
-            </div>
-        </footer>
-        <!-- JavaScript -->
-        <!-- Firebase -->
-        <script type="module">
-            // Import the functions you need from the SDKs you need
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- // container -->
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-title max-title">
+        <h3>Team</h3>
+      </div>
+      <div class="d-flex flex-wrap align-items-center justify-content-around text-center mt-5">
+      </div>
+    </div>
+    <img id="team" src="images/team.jpg" alt="team"
+      style="display: block; margin: 0 auto; width: 70vw; border-radius: 8px; border: 1px solid #FFFFFF66;">
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-title max-title">
+        <h3>Partnerships</h3>
+      </div>
+      <div class="d-flex flex-wrap align-items-center justify-content-around text-center mt-5 client-logos">
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/bsc.webp" alt="logo" class="img-fluid">
+          <span>Binance Smart Chain</span>
+        </div>
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/pancake.png" alt="logo" class="img-fluid">
+          <span>PancakeSwap</span>
+        </div>
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/metamask.png" alt="logo" class="img-fluid">
+          <span>Metamask</span>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap align-items-center justify-content-around text-center mt-5 client-logos">
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/twt.png" alt="logo" class="img-fluid">
+          <span>TrustWallet</span>
+        </div>
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/cmc.png" alt="logo" class="img-fluid">
+          <span>CoinMarketCap</span>
+        </div>
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/cg.png" alt="logo" class="img-fluid">
+          <span>CoinGecko</span>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap align-items-center justify-content-around text-center mt-5 client-logos">
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/unicrypt.png" alt="logo" class="img-fluid">
+          <span>Unicrypt</span>
+        </div>
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/bitrue.png" alt="logo" class="img-fluid">
+          <span>Bitrue</span>
+        </div>
+        <div class="partnership-item flex-md-fill partnership-brand pt-5 anim-fade js-scrollanim">
+          <img src="images/cls.png" alt="logo" class="img-fluid">
+          <span>Coin Liquidity Solutions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- // section -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-title max-title text-center">
+        <h3>FAQ</h3>
+      </div>
+      <p class="lead p-3 centered-text text-center mx-auto">
+        Got questions about METAGALAXY? We have got answers. Check it out!
+      </p>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="faq__item anim-fade js-scrollanim">
+            <h4>What is Reality?</h4>
+            <p>
+              Reality no longer has the time to take on the appearance of reality; We live in a world where
+              Reality has
+              now been driven from Reality.
+              Keep Calm and hold the Metaverse Experience in a different aspect.
+              A Brand new Galaxy through out to final space. Beyond reality, a new mind software.
+            </p>
+          </div>
+          <div class="faq__item anim-fade js-scrollanim">
+            <h4>How the METAGALAXY gameplay will look like?</h4>
+            <p>
+              You can enjoy by life-like Virtual Galaxy experience.
+              Buy and Earn Planets with different aspects and practise the Planet as you desire: Build your own
+              society
+              and your own eco-system entirely.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="faq__item anim-fade js-scrollanim">
+            <h4>When will be METAGALAXY CEX Listing?</h4>
+            <p>
+              To be announced on our official channels. Follow us on Twitter and Telegram.
+            </p>
+          </div>
+          <div class="faq__item anim-fade js-scrollanim">
+            <h4>What are the benefits of $MEGALAND Token?</h4>
+            <p>
+              We define $MEGALAND token as resource of our metagalactic universe.
+              So, this token will be used for in-game transactions such as constructing, leveling up and PvP.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="section py-lg">
+    <div class="container">
+      <ul class="text-center mt-5 social__links">
+        <li>
+          <a href="mailto:info@metagalaxyland.com" target="_blank">
+            <img width="36px" src="images/email.png" alt="tw" class="img-fluid">
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/metagalaxyland" target="_blank">
+            <img width="36px" src="images/twitter-icon.svg" alt="tw" class="img-fluid">
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/metagalaxyland" target="_blank">
+            <img width="36px" src="images/telegram-icon.svg" alt="tg" class="img-fluid" style="padding-right: 4px;">
+          </a>
+        </li>
+        <li>
+          <a href="https://medium.com/@metagalaxyland" target="_blank">
+            <img width="64px" src="images/medium-icon.png" alt="tg" class="img-fluid">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/MetaGalaxy-Land" target="_blank">
+            <img width="36px" height="36px" src="images/github-icon.png" alt="tg">
+          </a>
+        </li>
+      </ul>
+      <div class="text-center mt-5">
+        <p class="copyright__text mb-0">
+          <small>
+            copyright ©
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;METAGALAXY
+          </small>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript -->
+  <!-- Firebase -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
             import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
             import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
             // TODO: Add SDKs for Firebase products that you want to use
@@ -692,15 +727,16 @@
             const app = initializeApp(firebaseConfig);
             const analytics = getAnalytics(app);
         </script>
-        <!-- jQuery & Bootstrap -->
-        <script src="js/jquery-3.3.1.slim.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <!-- Plugin JS -->
-        <script src="js/plugins/flipclock.min.js"></script>
-        <script src="js/plugins/chart.js"></script>
-        <script src="js/plugins/owl.carousel.min.js"></script>
-        <script src="js/plugins/scrollmagic.min.js"></script>
-        <!-- Custom JS -->
-        <script src="js/script.js"></script>
-    </body>
+  <!-- jQuery & Bootstrap -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JS -->
+  <script src="js/plugins/flipclock.min.js"></script>
+  <script src="js/plugins/chart.js"></script>
+  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/plugins/scrollmagic.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
